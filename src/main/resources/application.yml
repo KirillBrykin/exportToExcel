@@ -1,0 +1,22 @@
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+
+
+#    #         local
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: user
+    password: user
+
+#    #         dev
+#    url: jdbc:postgresql://10.9.35.2:5432/back_office
+#    username: back_office
+#    password: bwRR8epNsJ
+#    hikari:
+#      username: back_office
+#      password: bwRR8epNsJ
+
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update

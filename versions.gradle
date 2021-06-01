@@ -1,0 +1,4 @@
+ext.versions = [
+        'postgresql': '42.2.20'
+
+]
